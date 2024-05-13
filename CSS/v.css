@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    /* Set a style for all buttons */
+    .button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 15%;
+      font-size: large;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      text-align: center;
+    }
+    
+    .button:hover {
+      opacity: 0.8;
+    }
+/*____________________________________________________________________*/
+/*--------table design--------*/
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+tr:hover {background-color: rgb(189, 187, 187);}
+table{width: 100%;}
+
+td{width: 20%;
+height: 100px;
+text-align: center;}
+
+th{width: 20%;
+  height: 15%;
+  text-align: center;}
+/*_____________________________________________________________*/
+/*-------link--------*/
+
+a:link {
+  color: black;
+  text-decoration-line: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color:black ;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 600px) {
+    table, tr{
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    
+  }
+
+

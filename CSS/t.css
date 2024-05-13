@@ -1,0 +1,43 @@
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+tr:hover {background-color: rgb(189, 187, 187);}
+table{width: 50%;}
+
+td{width: 25%;
+height: 50px;
+text-align: center;}
+
+th{width: 25%;
+  height: 50px;
+  text-align: center;}
+
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 600px) {
+    table, tr{
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>About LebChalet</title>
+   <meta charset="utf-8">
+   <link rel="icon" type="image/png" href="images/favicon.png.ico">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="CSS/about.css"> 
+  
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="index.php">Home</a>
+      <a  href="contact.html">Contact</a>
+      <a class="active" href="about.html">About</a>
+      <a style="margin-left: 30% ; font-family: brush-script ;"> LEB CHALETS </a>
+  </div>
+  <div class="content">
+    <header>
+        <h2 style="font-family: brush-script ;">Leb Chalets</h2>
+    </header>
+    
+    <section>
+      <nav>
+        <img style="width: 90%; height: 250px; margin: 5%;" src="Images/logo_1.jpg" alt="lebcahlet logo">
+      </nav>
+      
+      <article style="font-size:25px ;">
+       LebChalets is a website that helps users to find an ideal Chalet for their vacations inside Lebanon.<br>
+       In few clicks users can search for a chalet by simply entering the desired date, location, and a budget of
+       their choice. Finally they press the button search and let our search engine find them a suitable chalet.<br>
+       Users can also search for a chalet by inserting its name.
+      </article>
+    </section>
+    
+    <footer>
+      <center><img src="Images/lebanonflag.png" alt="lebanese flag"></center>
+      <center><p style="font-size: 20px;"><cite>Live Love Lebanon</cite></p></center>
+    </footer>
+  </div>
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+  </body>
+</html>
